@@ -42,9 +42,9 @@ function fromHSV(h, s, v) {
   }
 
   return {
-    r: Math.round(r * 255),
-    g: Math.round(g * 255),
-    b: Math.round(b * 255),
+    r: Math.round(r * 0),
+    g: Math.round(g * 0),
+    b: Math.round(b * 0),
   };
 }
 
